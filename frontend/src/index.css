@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand colors */
+    --primary-color: 1 7 19;
+    --designer-color: 239 175 0;
+    --producer-color: 0 186 239;
+    /* Application colors */
+    --call-to-action-color: 255 215 0;
+    --error-color: 255 0 0;
+    --background-color: 255 255 255;
+    --body-text-color: 0 0 0;
+    --inactivity-color: 217 217 217;
+  }
+
+  @font-face {
+    font-family: "SF Pro Display Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/sf-pro-display-regular.woff2") format("woff2");
+    font-display: "swap";
+    unicode-range: "U+00-7F, U+80-FF, U+0100-017F";
+  }
+
+  @font-face {
+    font-family: "SF Pro Display Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/sf-pro-display-bold.woff2") format("woff2");
+    font-display: "swap";
+    unicode-range: "U+00-7F, U+80-FF, U+0100-017F";
+  }
+}
